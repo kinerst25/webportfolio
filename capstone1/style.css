@@ -1,0 +1,30 @@
+/* CSS Reset */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(320deg, #cca152, #9db3be,  #58626e, #314657)!important;
+	font-family: 'Open-Sans',sans-serif;
+}
+
+.box {
+	text-decoration: none;
+	color: white;
+	background: transparent;
+	border-radius: 5px;
+	transition: all 0.4s ease-in-out 0.2s;
+	border: 1px solid white;
+	margin: 0 10px;
+}
+
+.box:hover {
+	border: 0;
+	box-shadow: 0 0 3px #6bffcb, 0 0 7px #6bffcb, 0 0 20px;
+}
+
+#myName, #myProfession {
+	font-family: 'Roboto Slab',sans-serif;
+}
